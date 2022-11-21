@@ -2,6 +2,6 @@
 {
     public interface IValueScope<T> where T : new()
     {
-        public T Value { get; init; }
+        T Value { get; init; }
     }
 }
